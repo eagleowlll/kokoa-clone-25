@@ -1,0 +1,22 @@
+.user-component__title--name {
+  font-weight: 600;
+}
+.user-component__subtitle {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-component__name-list {
+  padding: var(--horizontal-space);
+}
+
+.user-component__chat-notification {
+  background-color: tomato;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
