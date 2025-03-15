@@ -7,29 +7,6 @@
     <title>chat</title>
   </head>
 
-  <main class="main-screen main-chat">
-    <div class="chat__timestamp">Tuesday, June 30, 2020</div>
-
-    <div class="message-row">
-      <img src="https://i.imgur.com/oJBFx8f.jpg" />
-      <div class="message-row__content">
-        <span class="message__author">니꼬</span>
-        <div class="message__info">
-          <span class="message__bubble">Hi!</span>
-          <span class="message__time">21:27</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="message-row message-row__sender">
-        <div class="message__info">
-            <span class="message__time message__time__sender">21:27</span>
-          <span class="message__bubble message__bubble__sender">What's up</span>
-        </div>
-      </div>
-    </div>
-  </main>
-
   <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
@@ -45,7 +22,6 @@
         <i class="fa-solid fa-battery-full"></i>
       </div>
     </div>
-
     <header class="alt-header">
       <div class="alt-header__column">
         <a href="chats.html">
@@ -60,6 +36,36 @@
         <span><i class="fa-solid fa-bars fa-2x"></i></span>
       </div>
     </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img src="https://i.imgur.com/oJBFx8f.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">니꼬</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__sender">
+        <div class="message__info">
+          <span class="message__time message__time__sender">21:27</span>
+          <span class="message__bubble message__bubble__sender">What's up</span>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/211fb6954c.js"
